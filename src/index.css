@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.view__text {
+  font-size: 64px;
+  line-height: 115.02%;
+  background: linear-gradient(
+    62.01deg,
+    #407bff 18.51%,
+    #21e6d5 56.3%,
+    #212867 86.53%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.realtime__text {
+  font-size: 64px;
+  line-height: 115.02%;
+  background: linear-gradient(
+    62.01deg,
+    #407bff 18.51%,
+    #21e6d5 56.3%,
+    #212867 86.53%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.efficiency__text {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 115.02%;
+  background: linear-gradient(
+    62.01deg,
+    #407bff 18.51%,
+    #21e6d5 56.3%,
+    #212867 86.53%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer__text {
+  font-size: 36px;
+  line-height: 44px;
+  background: linear-gradient(
+    62.01deg,
+    #407bff 18.51%,
+    #21e6d5 56.3%,
+    #212867 86.53%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
