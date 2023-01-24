@@ -63,6 +63,10 @@ html {
   background-clip: text;
 }
 
+.faq{
+  background: rgba(47, 128, 237, 0.1)
+}
+
 .footer__text {
   font-size: 36px;
   line-height: 44px;

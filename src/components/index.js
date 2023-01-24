@@ -6,3 +6,6 @@ export { default as SectionFour } from './SectionFour';
 export { default as SectionFive } from './SectionFive';
 export { default as SectionSix } from './SectionSix';
 export { default as Footer } from './Footer';
+export { default as Faq } from './Faq';
+export { default as Accordion } from './Accordion';
+

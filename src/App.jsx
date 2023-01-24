@@ -1,5 +1,6 @@
 import './App.css';
 import {
+  Faq,
   Footer,
   Header,
   HeroSection,
@@ -19,7 +20,7 @@ function App() {
       <SectionThree />
       <SectionFour />
       <SectionFive />
-      <h1>Add FAQ</h1>
+      <Faq />
       <SectionSix />
       <Footer />
     </div>
