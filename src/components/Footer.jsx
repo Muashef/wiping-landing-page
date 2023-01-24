@@ -1,7 +1,9 @@
 import facebook from '../assets/facebook.png';
 import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
-import linkedin from '../assets/linkedin.png';
+import linkedin from '../assets/linkedIN.png';
+
+// Changed linkedin.png to linkedIN.png LMAO
 
 const Footer = () => {
   return (

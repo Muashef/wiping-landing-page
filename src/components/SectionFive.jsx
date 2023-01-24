@@ -11,7 +11,7 @@ const SectionFive = () => {
             Efficiency <br /> Guaranteed
           </h2>
           <p className="text-sm text-center md:text-left md:text-2xl font-medium text-[#8a8a8a]">
-            Discover the most suitable and compatible match for your need.
+            Discover the most suitable and <br/> compatible match for your need.
           </p>
           <div className="flex items-center gap-8 mt-10 order-last">
             <img src={google_play} alt="google_play_image" />
