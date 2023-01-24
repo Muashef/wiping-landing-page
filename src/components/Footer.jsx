@@ -7,7 +7,7 @@ import linkedin from '../assets/linkedIN.png';
 
 const Footer = () => {
   return (
-    <div className="h-[60vh]">
+    <div className="h-[40vh]">
       <div className="w-[80%] mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="w-full text-center md:text-left">
           <h2 className="footer__text font-bold md:w-[15%] order-2">Wiping</h2>
