@@ -8,15 +8,15 @@ const SectionFour = () => {
   return (
     <div>
       <div className="w-[80%] mx-auto">
-        <header className="w-[30%]">
+        <header className=" text-center md:w-[30%]">
           <h2 className="font-bold realtime__text">
             Real-time
             <br />
             Features
           </h2>
         </header>
-        <main className="flex justify-between gap-10 mt-8">
-          <div className="w-[60%] relative">
+        <main className="flex flex-col md:flex-row justify-between gap-10 mt-8">
+          <div className="hidden md:block md:w-[60%] relative">
             <img
               className="absolute left-[-29%] w-[100%]"
               src={realtime_hero}
@@ -28,17 +28,17 @@ const SectionFour = () => {
               alt="chat_clip_image"
             />
           </div>
-          <div className="w-[50%] ml-auto">
-            <h2 className="font-semibold text-[36px] leading-[44px] text-[#2F80ED]">
+          <div className="w-[90%] mx-auto md:w-[50%] md:ml-auto">
+            <h2 className="font-semibold text-[20px] md:text-[36px] leading-6 md:leading-[44px] text-[#2F80ED] text-center">
               Meet People, Get that Job from Anywhere you are.
             </h2>
             <div className="flex items-start gap-6 mt-5">
-              <img src={algorithms} alt="algorithms" />
+              <img src={algorithms} alt="amdorithms" />
               <div>
-                <h3 className="font-semibold text-[28px] leading-[34px] text-[#2F80ED]">
+                <h3 className="font-semibold text-base md:text-[28px] md:leading-[34px] text-[#2F80ED]">
                   Algorithms
                 </h3>
-                <p className="font-normal text-xl text-[#494E78]">
+                <p className="font-normal text-sm md:text-xl text-[#494E78]">
                   An app that combines speed dating, Ringall, and machine
                   learning to provide a face, maximum reach, and a voice.
                 </p>
@@ -47,11 +47,11 @@ const SectionFour = () => {
             <div className="flex items-start gap-6 mt-5">
               <img src={match} alt="math_img" />
               <div>
-                <h3 className="font-semibold text-[28px] leading-[34px] text-[#2F80ED]">
+                <h3 className="font-semibold text-base md:text-[28px] md:leading-[34px] text-[#2F80ED]">
                   Match
                 </h3>
-                <p className="font-normal text-xl text-[#494E78]">
-                  Find your closest match quickly using our algorithm and your
+                <p className="font-normal text-sm md:text-xl text-[#494E78]">
+                  Find your closest match quickly using our amdorithm and your
                   personal data.
                 </p>
               </div>
@@ -59,10 +59,10 @@ const SectionFour = () => {
             <div className="flex items-start gap-6 mt-5">
               <img src={video} alt="video-dial-in" />
               <div>
-                <h3 className="font-semibold text-[28px] leading-[34px] text-[#2F80ED]">
+                <h3 className="font-semibold text-base md:text-[28px] md:leading-[34px] text-[#2F80ED]">
                   Video Dial In
                 </h3>
-                <p className="font-normal text-xl text-[#494E78]">
+                <p className="font-normal text-sm md:text-xl text-[#494E78]">
                   Eliminate catfishing with our mandatory video call feature.
                   Put a face to the name!
                 </p>

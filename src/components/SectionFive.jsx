@@ -5,10 +5,12 @@ import ios_logo from '../assets/ios-logo.png';
 const SectionFive = () => {
   return (
     <div className="w-full py-40">
-      <div className="flex items-center justify-center w-[80%] gap-6 mx-auto">
-        <div className="">
-          <h2 className="efficiency__text font-bold">Efficiency Guaranteed</h2>
-          <p className="text-2xl font-medium text-[#8a8a8a]">
+      <div className="flex flex-col md:flex-row items-center justify-center w-[80%] gap-6 mx-auto">
+        <div className="flex flex-col">
+          <h2 className="efficiency__text font-bold text-center md:text-left">
+            Efficiency Guaranteed
+          </h2>
+          <p className="text-sm text-center md:text-left md:text-2xl font-medium text-[#8a8a8a]">
             Discover the most suitable and compatible match for your need.
           </p>
           <div className="flex items-center gap-8 mt-10">

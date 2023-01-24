@@ -5,16 +5,24 @@ import section_six_hero from '../assets/section-six-hero.png';
 const SectionSix = () => {
   return (
     <div className="my-36">
-      <div className="p-10 w-[80%] mx-auto flex items-center justify-between bg-[#2F80ED] rounded-[72px]">
+      <div className="p-8 text-center w-[90%] md:w-[80%] mx-auto flex flex-col md:flex-row items-center justify-between bg-[#2F80ED] rounded-3xl md:rounded-[72px] overflow-hidden">
         <div>
-          <h2 className='font-bold text-5xl text-white'>Get Wiping Now.</h2>
-          <p className='text-2xl font-medium text-white'>Real-time Dating and HR Tool.</p>
-          <div className="flex items-center gap-8 mt-10">
-            <img src={google_play} alt="google_play_image" />
-            <img src={ios_logo} alt="ios_image" />
+          <h2 className="font-bold text-2xl md:text-5xl text-white">
+            Get Wiping Now.
+          </h2>
+          <p className="text-sm md:text-2xl font-medium text-white">
+            Real-time Dating and HR Tool.
+          </p>
+          <div className="w-full flex items-center gap-8 mt-10">
+            <img
+              className="w-[40%]"
+              src={google_play}
+              alt="google_play_image"
+            />
+            <img className="w-[50%]" src={ios_logo} alt="ios_image" />
           </div>
         </div>
-        <div className='mb-[-40px]'>
+        <div className="mb-[-35px] md:mb-[-40px]">
           <img src={section_six_hero} alt="section_six_hero_image" />
         </div>
       </div>

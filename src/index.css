@@ -21,6 +21,7 @@ html {
 
 .view__text {
   font-size: 64px;
+  margin-bottom: 15px;
   line-height: 115.02%;
   background: linear-gradient(
     62.01deg,
@@ -74,4 +75,19 @@ html {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+@media screen and (max-width: 768px) {
+  .view__text {
+    font-size: 35px;
+  }
+  .realtime__text {
+    font-size: 35px;
+  }
+  .efficiency__text {
+    font-size: 35px;
+  }
+  .footer__text {
+    font-size: 24px;
+  }
 }
