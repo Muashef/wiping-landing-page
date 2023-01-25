@@ -14,7 +14,10 @@ const Footer = () => {
               className="text-[#212121] tracking-tighter 
             text-[14px] md:text-[21px] leading-[27px]"
             >
-              Dates, Job seekers to HR, and counselors to seekers.
+              Stay connected with like-minded individuals on our social
+              networking app. Find friends, dates, and people with similar
+              career experiences. Keep up to date with our latest features and
+              events by following us on social media.
             </p>
             <div className="flex items-center gap-4 order-1 mt-6 mb-4 lg:mt-0 lg:mb-0">
               <img src={facebook} alt="" />
@@ -34,7 +37,7 @@ const Footer = () => {
             text-[14px] md:leading-[27px]
             "
             >
-              Find your ideal love mate and that perfect job in{' '}
+              Find your ideal match and that perfect job{' '}
               <span className="decoration-[#2F80ED] underline">real-time.</span>
             </p>
             <div className="flex flex-col md:text-right mt-4">

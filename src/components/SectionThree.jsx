@@ -14,7 +14,7 @@ const SectionThree = () => {
             View all <br /> screens.
           </h2>
           <p className="font-medium text-sm md:text-2xl text-[#8a8a8a]">
-            Real-time in app Social and Work tool with efficient AI.
+            A Real-time Social and Networking App with efficient AI.
           </p>
           <div className="flex items-center gap-8 mt-10">
             <img src={google_play} alt="google_play_image" />
