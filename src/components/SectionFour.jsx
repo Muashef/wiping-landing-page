@@ -3,11 +3,12 @@ import chat_clip from '../assets/chat-clip.png';
 import match from '../assets/match.png';
 import video from '../assets/video.png';
 import realtime_hero from '../assets/realtime-hero.png';
+import mobile_algorithms from '../assets/mobile-algorithm.png';
 
 const SectionFour = () => {
   return (
     <div>
-      <div className="w-[80%] mx-auto">
+      <div className="w-full md:w-[80%] mx-auto">
         <header className=" text-center md:w-[30%]">
           <h2 className="font-bold realtime__text">
             Real-time
@@ -16,18 +17,28 @@ const SectionFour = () => {
           </h2>
         </header>
         <main className="flex flex-col md:flex-row justify-between gap-10 mt-8">
-          <div className="hidden md:block md:w-[60%] relative">
-            <img
-              className="absolute left-[-29%] w-[100%]"
-              src={realtime_hero}
-              alt="realtime_hero_image"
-            />
-            <img
-              className="absolute z-1 top-[80%] left-[-23%] w-[70%]"
-              src={chat_clip}
-              alt="chat_clip_image"
-            />
-          </div>
+          {window.innerWidth > 768 ? (
+            <div className="md:w-[60%] relative">
+              <img
+                className="absolute left-[-29%] w-[100%]"
+                src={realtime_hero}
+                alt="realtime_hero_image"
+              />
+              <img
+                className="absolute z-1 top-[80%] left-[-23%] w-[70%]"
+                src={chat_clip}
+                alt="chat_clip_image"
+              />
+            </div>
+          ) : (
+            <div className="w-full">
+              <img
+                className="w-[100%] object-cover"
+                src={mobile_algorithms}
+                alt="mobile_algorithms_image"
+              />
+            </div>
+          )}
           <div className="w-[90%] mx-auto md:w-[50%] md:ml-auto">
             <h2 className="font-semibold text-[20px] md:text-[36px] leading-6 md:leading-[44px] text-[#2F80ED] text-center">
               Meet People, Get that Job from Anywhere you are.
