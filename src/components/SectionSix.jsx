@@ -7,13 +7,13 @@ const SectionSix = () => {
     <div className="my-36">
       <div className="p-8 text-center w-[90%] md:w-[80%] mx-auto flex flex-col md:flex-row items-center justify-between bg-[#2F80ED] rounded-3xl md:rounded-[72px] overflow-hidden">
         <div>
-          <h2 className="font-bold text-2xl md:text-5xl text-white">
+          <h2 className="font-bold text-2xl md:text-5xl text-white mb-3">
             Get Wiping Now.
           </h2>
-          <p className="text-sm md:text-2xl font-medium text-white">
+          <p className="text-sm md:text-xl font-medium text-white">
             Real-time Social and Netorking App.
           </p>
-          <div className="w-full flex items-center gap-8 mt-10">
+          <div className="w-full flex items-center justify-center gap-3 lg:gap-8 mt-10 mb-32 lg:mb-0 mx-auto">
             <img
               className="w-[40%]"
               src={google_play}

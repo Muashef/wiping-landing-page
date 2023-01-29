@@ -8,4 +8,5 @@ export { default as SectionSix } from './SectionSix';
 export { default as Footer } from './Footer';
 export { default as Faq } from './Faq';
 export { default as Accordion } from './Accordion';
+export { default as GetInTouch } from './GetInTouch'
 

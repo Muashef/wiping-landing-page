@@ -2,6 +2,7 @@ import './App.css';
 import {
   Faq,
   Footer,
+  GetInTouch,
   Header,
   HeroSection,
   SectionFive,
@@ -22,6 +23,7 @@ function App() {
       <SectionFive />
       <Faq />
       <SectionSix />
+      <GetInTouch />
       <Footer />
     </div>
   );

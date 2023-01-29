@@ -4,7 +4,7 @@ import ios_logo from '../assets/ios-logo.png';
 
 const SectionThree = () => {
   return (
-    <div className="w-full py-36">
+    <div className="w-full py-32">
       <div className="w-full md:w-[80%] flex flex-col md:flex-row items-center justify-between gap-6 mx-auto">
         <div className="w-[60%] md:w-[40%]">
           <img src={view_hero} alt="view_hero_image" />
@@ -16,7 +16,7 @@ const SectionThree = () => {
           <p className="font-medium text-sm md:text-2xl text-[#8a8a8a]">
             A Real-time Social and Networking App with efficient AI.
           </p>
-          <div className="flex items-center gap-8 mt-10">
+          <div className="flex items-center gap-3 lg:gap-8 mt-10 mx-auto">
             <img src={google_play} alt="google_play_image" />
             <img src={ios_logo} alt="ios_image" />
           </div>
