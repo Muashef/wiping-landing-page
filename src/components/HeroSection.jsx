@@ -5,9 +5,9 @@ import ios_logo from '../assets/ios-logo.png';
 const HeroSection = () => {
   return (
     <div className="w-full bg-white overflow-hidden">
-      <div className="flex flex-col items-center w-full max-w-[80vw] md:max-w-7xl justify-between gap-8 mx-auto md:flex-row">
+      <div className="flex flex-col items-center w-full max-w-[80vw] md:max-w-6xl justify-between gap-8 mx-auto md:flex-row">
         <div className="w-full md:max-w-[50%]">
-          <h2 className="text-[21px] mt-4 leading-9 text-center md:text-left md:text-[56px] md:leading-[54px] font-semibold text-[#033B6C]">
+          <h2 className="text-[21px] mt-4 leading-9 text-center md:text-left md:text-[58px] md:leading-[54px] font-semibold text-[#033B6C]">
             Networking is a
             <span className="text-[#2F80ED]"> TWO-WAY STREET</span>, let us
             connect you with the right people.

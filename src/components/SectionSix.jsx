@@ -11,7 +11,7 @@ const SectionSix = () => {
             Get Wiping Now.
           </h2>
           <p className="text-sm md:text-xl font-medium text-white">
-            Real-time Social and Netorking App.
+            Real-time Social and Networking App.
           </p>
           <div className="w-full flex items-center justify-center gap-3 lg:gap-8 mt-10 mb-32 lg:mb-0 mx-auto">
             <img

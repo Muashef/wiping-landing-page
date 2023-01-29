@@ -5,7 +5,7 @@ import ios_logo from '../assets/ios-logo.png';
 const SectionFive = () => {
   return (
     <div className="w-full py-32 mt-2 lg:mt-32">
-      <div className="flex flex-col md:flex-row items-center justify-center w-[80%] gap-6 mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-between w-[80%] gap-6 mx-auto">
         <div className="flex flex-col">
           <h2 className="efficiency__text font-bold text-center md:text-left mb-3">
             Efficiency <br /> Guaranteed
@@ -18,7 +18,7 @@ const SectionFive = () => {
             <img src={ios_logo} alt="ios_image" />
           </div>
         </div>
-        <div>
+        <div className="w-[60%] md:w-[40%]">
           <img src={effiency_hero} alt="efficiency_hero_image" />
         </div>
       </div>
