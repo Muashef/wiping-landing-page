@@ -11,11 +11,11 @@ const SectionTwo = () => {
         </h2>
         <div className="max-w-full flex items-center justify-center gap-3 lg:gap-8 md:w-[30%] mx-auto">
           <img
-            className="md:w-[50%]"
+            className="w-full md:w-[50%]"
             src={google_play}
             alt="google_play_image"
           />
-          <img className="md:w-[60%]" src={ios_logo} alt="ios_image" />
+          <img className="w-full md:w-[60%]" src={ios_logo} alt="ios_image" />
         </div>
       </div>
     </div>

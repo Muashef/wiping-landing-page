@@ -6,17 +6,19 @@
 
 * {
   box-sizing: border-box;
-}
-
-html {
   font-family: 'Inter', sans-serif;
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -ms-overflow-style: scrollbar;
+  box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  margin: 0;
-  padding: 0;
+}
+
+#root {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  @apply w-full overflow-x-hidden;
 }
 
 .view__text {
