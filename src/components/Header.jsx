@@ -2,7 +2,7 @@ import logo from '../assets/logo.png';
 
 const Header = () => {
   return (
-    <div className="bg-white py-4 sticky top-0 shadow-lg z-50">
+    <div className="bg-white py-4 sticky top-0 shadow-sm z-50">
       <div className="w-[90%] mx-auto flex items-center justify-between
       
       ">
