@@ -18,9 +18,9 @@ const Footer = () => {
 
   return (
     <div className="h-[60vh] py-28">
-      <div className="w-[90%] md:w-[50%] mx-auto flex flex-col items-center justify-between text-center">
+      <div className="max-w-[80vw] lg:max-w-7xl md:w-[50%] mx-auto flex flex-col items-center justify-between text-center">
         <div className="w-full text-center">
-          <h2 className="footer__text font-bold w-[25%] mx-auto order-2">Wiping</h2>
+          <h2 className="footer__text font-bold  mx-auto order-2">Wiping</h2>
           <div className="w-full flex flex-col md:flex-row items-center justify-between my-3">
             <p
               className="text-[#212121] tracking-tighter 
