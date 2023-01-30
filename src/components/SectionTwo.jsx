@@ -9,9 +9,9 @@ const SectionTwo = () => {
         <h2 className="font-semibold text-sm text-center md:text-left w-full md:text-[37.9px] md:leading-[46px] text-[#fff] md:w-[60%]">
           Find the best candidates with our speed-matching feature.
         </h2>
-        <div className="flex items-center gap-8 md:w-[30%]">
+        <div className="flex items-center w-full gap-8 md:w-[30%]">
           <img
-            className="md:w-[50%]"
+            className="w-[60%]"
             src={google_play}
             alt="google_play_image"
           />
