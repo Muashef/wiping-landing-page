@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="w-full overflow-hidden">
       <div className="flex flex-col items-center w-full max-w-[80vw] md:max-w-7xl justify-between gap-8 mx-auto md:flex-row">
-        <div className="w-full md:max-w-[50%]">
+        <div className="w-full md:max-w-[45%]">
           <h2 className="text-[21px] mt-4 leading-9 text-center md:text-left md:text-[58px] md:leading-[54px] font-semibold text-[#033B6C]">
             Networking is a
             <span className="text-[#2F80ED]"> TWO-WAY STREET</span>, let us

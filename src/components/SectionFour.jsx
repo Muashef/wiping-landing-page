@@ -8,7 +8,7 @@ import mobile_algorithms from '../assets/mobile-algorithm.png';
 const SectionFour = () => {
   return (
     <div>
-      <div className="w-full  lg:max-w-7xl mx-auto">
+      <div className="w-full  lg:max-w-6xl mx-auto">
         <div className=" text-center md:w-[30%]">
           <h2 className="font-bold realtime__text">
             Real-time
