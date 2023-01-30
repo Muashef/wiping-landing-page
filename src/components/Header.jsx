@@ -2,8 +2,9 @@ import logo from '../assets/logo.png';
 
 const Header = () => {
   return (
-    <div className="bg-white py-4 px-4">
-      <div className="w-full max-w-7xl mx-auto flex items-center justify-between
+    <div className="bg-white py-4">
+      <div className="w-[90%] mx-auto flex items-center justify-between
+      
       ">
         <img
           className='

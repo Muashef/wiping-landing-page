@@ -1,6 +1,6 @@
 import hero_img from '../assets/hero_img.png';
 import google_play from '../assets/google-play.png';
-import ios_logo from '../assets/ios-logo.png';
+import ios_logo from '../assets/ios-logo.svg';
 
 const HeroSection = () => {
   return (
