@@ -14,7 +14,7 @@ import {
 
 function App() {
   return (
-    <div className="">
+    <div className="grid grid-cols-1 w-full">
       <Header />
       <HeroSection />
       <SectionTwo />

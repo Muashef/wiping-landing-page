@@ -3,11 +3,12 @@ import logo from '../assets/logo.png';
 const Header = () => {
   return (
     <div className="bg-white py-4 px-4">
-      <div className="w-full max-w-7xl mx-auto flex items-center justify-between
+      <div className="w-full max-w-[80vw] lg:max-w-7xl mx-auto flex items-center justify-between
       ">
         <img
           className='
-            w-[60px] h-[60px] lg:w-auto lg:h-auto
+            w-[30px] h-[30px]
+            lg:w-[60px] lg:h-[60px] 
           '
           src={logo} alt="logo" />
         <button
