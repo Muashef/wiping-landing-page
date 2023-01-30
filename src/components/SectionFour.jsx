@@ -8,15 +8,15 @@ import mobile_algorithms from '../assets/mobile-algorithm.png';
 const SectionFour = () => {
   return (
     <div>
-      <div className="w-full md:w-[80%] mx-auto">
-        <header className=" text-center md:w-[30%]">
+      <div className="w-full  lg:max-w-7xl mx-auto">
+        <div className=" text-center md:w-[30%]">
           <h2 className="font-bold realtime__text">
             Real-time
             <br />
             Features
           </h2>
-        </header>
-        <main className="flex flex-col md:flex-row justify-between gap-10 mt-8">
+        </div>
+        <div className="flex flex-col md:flex-row justify-between gap-10 mt-8">
           {window.innerWidth > 768 ? (
             <div className="md:w-[60%] relative">
               <img
@@ -39,7 +39,7 @@ const SectionFour = () => {
               />
             </div>
           )}
-          <div className="w-[90%] mx-auto md:w-[50%] md:ml-auto">
+          <div className="w-full max-w-[80vw] mx-auto md:w-[50%] md:ml-auto">
             <h2 className="font-semibold text-[20px] md:text-[36px] leading-6 md:leading-[44px] text-[#2F80ED] text-center">
               Meet People, Get that Job from Anywhere you are.
             </h2>
@@ -80,7 +80,7 @@ const SectionFour = () => {
               </div>
             </div>
           </div>
-        </main>
+        </div>
       </div>
     </div>
   );

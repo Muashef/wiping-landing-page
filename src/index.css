@@ -14,11 +14,10 @@
 
 #root {
   width: 100vw;
-  overflow-x: hidden;
 }
 
 body {
-  @apply w-full overflow-x-hidden;
+  @apply w-full lg:overflow-x-hidden;
   background: url("/dot-bg.svg") #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;

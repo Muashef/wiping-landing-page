@@ -5,7 +5,7 @@ import ios_logo from '../assets/ios-logo.svg';
 const SectionFive = () => {
   return (
     <div className="w-full py-32 mt-2 lg:mt-32">
-      <div className="flex flex-col md:flex-row items-center justify-between w-[80%] gap-6 mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-between max-w-[80vw] lg:max-w-7xl w-full gap-6 mx-auto">
         <div className="flex flex-col items-center md:items-start">
           <h2 className="efficiency__text font-bold text-center md:text-left mb-3">
             Efficiency <br /> Guaranteed
