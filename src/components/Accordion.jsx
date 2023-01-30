@@ -7,7 +7,7 @@ const Accordion = ({ accordion, index, activeIndex, setActiveIndex }) => {
   // destructure accordion
   const { question, answer } = accordion;
   return (
-    <div onClick={() => setActiveIndex(index)} className=' cursor-pointer'>
+    <div onClick={() => setActiveIndex((index == activeIndex) ? null : index)} className=' cursor-pointer'>
       <div className='bg-white border rounded-sm'>
         <div className='min-h-[68px] flex items-center justify-between px-[30px]'>
           <h6 className='h6'>{question}</h6>
