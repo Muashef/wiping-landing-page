@@ -4,7 +4,7 @@ import ios_logo from '../assets/ios-logo.svg';
 
 const SectionThree = () => {
   return (
-    <div className="w-full py-32">
+    <div className="w-full py-32 lg:py-48">
       <div className="w-full max-w-[80vw] lg:max-w-7xl flex flex-col md:flex-row items-center justify-between gap-6 mx-auto">
         <div className="w-[60%] md:w-[40%]">
           <img src={view_hero} alt="view_hero_image" />

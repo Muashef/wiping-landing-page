@@ -13,13 +13,13 @@ const SectionFive = () => {
           <p className="text-sm text-center md:text-left md:text-2xl font-medium text-[#8a8a8a]">
             Discover the most suitable and <br/> compatible match for your need.
           </p>
-          <div className="flex items-center gap-3 lg:gap-8 mt-10 order-last mx-auto md:mx-0">
-            <img src={google_play} width={"150"} alt="google_play_image" />
+          <div className="flex items-center gap-3 lg:gap-8 mt-10 mx-auto md:mx-0">
+            <img src={google_play} width={"150"} alt="google_play_image"/>
             <img src={ios_logo} width={"150"} alt="ios_image" />
           </div>
         </div>
         <div className="w-[60%] md:w-[40%]">
-          <img src={effiency_hero} alt="efficiency_hero_image" />
+          <img src={effiency_hero} alt="efficiency_hero_image" /> 
         </div>
       </div>
     </div>

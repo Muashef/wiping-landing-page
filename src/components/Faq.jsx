@@ -11,8 +11,8 @@ const Faq = () => {
   const { accordions } = faq;
   const [activeIndex, setActiveIndex] = useState(0)
   return (
-    <section className='faq h-fit  py-[80px] lg:py-[80px] lg:mb-0'>
-      <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-custom bg-center lg:h-[700px] lg:pt-6'>
+    <section className='faq h-fit  py-[40px] lg:py-[80px] lg:mb-0'>
+      <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-custom bg-center lg:h-[600px] lg:pt-6'>
         {/* section title */}
         <div
           className='section-title-group flex flex-col items-center justify-center pb-10 space-x-4 lg:max-w-[540px] mx-auto px-4 lg:px-0'

@@ -21,7 +21,7 @@ const Accordion = ({ accordion, index, activeIndex, setActiveIndex }) => {
         </div>
         <div
           className={`${
-            activeIndex == index ? 'min-h-[200px] lg:min-h-[160px]' : 'min-h-0'
+            activeIndex == index ? 'min-h-[170px] lg:min-h-[100px]' : 'min-h-0'
           } max-h-0 overflow-hidden flex justify-center transition-all px-[30px]`}
         >
           <div className='mt-6'>{answer}</div>
