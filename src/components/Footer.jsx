@@ -27,7 +27,7 @@ const Footer = () => {
             text-[14px] md:text-[21px] leading-[27px] mb-4"
             >
               Stay connected with like-minded individuals on our social
-              networking app. Find friends, dates, and people with similar
+              networking app. Find friends, dates and people with similar
               career experiences. Keep up to date with our latest features and
               events by following us on social media.
             </p>
