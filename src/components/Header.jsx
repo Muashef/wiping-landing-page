@@ -11,12 +11,14 @@ const Header = () => {
             lg:w-[60px] lg:h-[60px] 
           '
           src={logo} alt="logo" />
-        <button
-          className="p-[14px] h-[47px] bg-[#2F80ED] rounded-2xl font-[Inter] font-medium text-white text-base leading-[19px] md:p-[8.5px]"
-          type="button"
-        >
-          Download
-        </button>
+          <a href='https://play.google.com/store/apps/details?id=com.wiping.android' target='_blank'>
+            <button
+              className="p-[14px] h-[47px] bg-[#2F80ED] rounded-2xl font-[Inter] font-medium text-white text-base leading-[19px] md:p-[8.5px]"
+              type="button"
+            >
+              Download
+            </button>
+        </a>
       </div>
     </div>
   );

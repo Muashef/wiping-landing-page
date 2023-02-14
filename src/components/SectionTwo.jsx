@@ -10,12 +10,12 @@ const SectionTwo = () => {
           Find the best candidates with our speed-matching feature.
         </h2>
         <div className="w-full flex items-center justify-center gap-3 lg:gap-4 md:max-w-[30%] mx-auto">
-          <img
-            className="w-full max-w-[140px] md:max-w-[50%]"
-            src={google_play}
-            alt="google_play_image"
-          />
-          <img className="w-full max-w-[140px] md:max-w-[50%]" src={ios_logo} alt="ios_image" />
+          <a href='https://play.google.com/store/apps/details?id=com.wiping.android' target='_blank'>
+            <img className="" width={"150"} src={google_play} alt="google_play_image"/>
+          </a>
+          <a href='#'>
+            <img className="" width={"150"} src={ios_logo} alt="ios_image" />
+          </a>
         </div>
       </div>
     </div>

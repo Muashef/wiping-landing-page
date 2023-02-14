@@ -14,8 +14,12 @@ const SectionFive = () => {
             Discover the most suitable and <br/> compatible match for your need.
           </p>
           <div className="flex items-center gap-3 lg:gap-8 mt-10 mx-auto md:mx-0">
-            <img src={google_play} width={"150"} alt="google_play_image"/>
-            <img src={ios_logo} width={"150"} alt="ios_image" />
+            <a href='https://play.google.com/store/apps/details?id=com.wiping.android' target='_blank'>
+              <img src={google_play} width={"150"} alt="google_play_image"/>
+            </a>
+            <a href='#'>
+              <img src={ios_logo} width={"150"} alt="ios_image" />
+            </a>
           </div>
         </div>
         <div className="w-[60%] md:w-[40%]">

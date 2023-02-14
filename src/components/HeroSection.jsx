@@ -13,8 +13,12 @@ const HeroSection = () => {
             connect you with the right people.
           </h2>
           <div className="flex items-center justify-center md:justify-start gap-3 lg:gap-4 mt-10 mx-auto">
-            <img src={google_play} width={"140"} alt="google_play_image" />
-            <img src={ios_logo} width={"140"} alt="ios_image" />
+            <a href='https://play.google.com/store/apps/details?id=com.wiping.android' target='_blank'>
+              <img src={google_play} width={"140"} alt="google_play_image" />
+            </a>
+            <a href='#'>
+              <img src={ios_logo} width={"140"} alt="ios_image" />
+            </a>
           </div>
         </div>
         <div className="relative">

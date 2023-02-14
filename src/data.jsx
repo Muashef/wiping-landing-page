@@ -17,7 +17,7 @@ export const faq = {
     {
       question: 'What is the difference between work and social mode?',
       answer:
-        '"Work Mode" that focuses on professional networking & matching (job seekers, recruiters, counselors, mentors, mentees & educatos) and a dating platform in "Social Mode" that matches users using our relationship algorithm and users\' preferences.',
+        '"Work Mode" this focuses on professional networking & matching (job seekers, recruiters, counselors, mentors, mentees & educatos) and a dating platform in "Social Mode" that matches users using our relationship algorithm and users\' preferences.',
     },
     {
       question: 'Is my data safe with wiping?',

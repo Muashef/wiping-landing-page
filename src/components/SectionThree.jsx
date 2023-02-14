@@ -17,12 +17,12 @@ const SectionThree = () => {
             A Real-time Social and Networking App with efficient AI.
           </p>
           <div className="flex items-center justify-center md:justify-end gap-4 mt-10 mx-auto md:mx-0 w-full">
-            <img
-              className="w-full max-w-[140px] lg:max-w-[160px]"
-              src={google_play}
-              alt="google_play_image"
-            />
-            <img className="w-full max-w-[140px] lg:max-w-[160px]" src={ios_logo} alt="ios_image" />
+            <a href='https://play.google.com/store/apps/details?id=com.wiping.android' target='_blank'>
+              <img className="" width={150} src={google_play} alt="google_play_image"/>
+            </a>
+            <a href='#'>
+              <img className="" width={150} src={ios_logo} alt="ios_image" />
+            </a>
           </div>
 
         </div>

@@ -16,12 +16,16 @@ const SectionSix = () => {
           </p>
           </div>
           <div className="w-full flex items-center justify-center md:items-start md:justify-start gap-4">
+            <a href='https://play.google.com/store/apps/details?id=com.wiping.android' target='_blank'>
             <img
               width={"150"}
               src={google_play}
               alt="google_play_image"
             />
-            <img width={"150"} src={ios_logo} alt="ios_image" />
+            </a>
+            <a href='#'>
+              <img width={"150"} src={ios_logo} alt="ios_image" />
+            </a>
           </div>
         </div>
         <div className='flex items-center justify-center'>

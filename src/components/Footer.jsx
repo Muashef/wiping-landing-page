@@ -46,11 +46,18 @@ const Footer = () => {
               <span className="decoration-[#2F80ED] underline">real-time.</span>
             </p>
             <div className="flex items-center gap-4 mt-6 mb-4 lg:mt-0 lg:mb-0">
-              <img src={facebook} alt="" />
-              <img src={instagram} alt="" />
-
-              <img src={twitter} alt="" />
-              <img src={linkedin} alt="" />
+              <a href='#'>
+                <img src={facebook} alt="" />
+              </a>
+              <a href=' https://instagram.com/wipingtech?igshid=YmMyMTA2M2Y=' target='_blank'>
+                <img src={instagram} alt="" />
+              </a>
+              <a href='https://twitter.com/Wiping_ng' target="_blank">
+                <img src={twitter} alt="" />
+              </a>
+              <a href='https://www.linkedin.com/company/wiping/' target="_blank">
+                <img src={linkedin} alt="" />
+              </a>
             </div>
             <div className="flex flex-col mt-4">
               <p>© {currentYear}, Wiping</p>
