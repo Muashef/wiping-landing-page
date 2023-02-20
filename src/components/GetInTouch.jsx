@@ -11,7 +11,7 @@ function GetInTouch() {
       e.preventDefault();
   
       emailjs.sendForm(
-        'service_6a1myxj', 
+        'service_0nlwk4j', 
         'template_waq87rv', 
         form.current, 
         '_5W48x--szIoDwRgD'
