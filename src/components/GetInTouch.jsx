@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import emailjs from '@emailjs/browser'
 import {BsEmojiSmile} from 'react-icons/bs'
 
@@ -6,6 +6,8 @@ import {BsEmojiSmile} from 'react-icons/bs'
 
 function GetInTouch() {
     const form = useRef();
+
+    const [status, setStatus] = useState('');
 
     const sendEmail = (e) => {
       e.preventDefault();
@@ -22,14 +24,26 @@ function GetInTouch() {
         }, (error) => {
             console.log(error.text);
         });
+        setStatus('SUCCESS');
         e.target.reset()
     };
+
+    useEffect(() => {
+        if(status === 'SUCCESS') {
+            setTimeout(() => {
+                setStatus('');
+            }, 3000);
+        }
+    }, [status]);
+
+    
 
     return (
         <div className='bg-white py-22 px-4'>
             <div className='w-full h-full flex flex-col items-center justify-center mx-auto '>
                 <h1 className='text-[#2F80ED] text-3xl font-bold text-center mb-2'>Get In Touch</h1>
                 <p className='flex flex-row items-center justify-center text-center text-black font-medium gap-2'>Don't be shy, feel free to reach out to us. <BsEmojiSmile /> </p>
+                {status && renderAlert()}
                 <form ref={form} onSubmit={sendEmail} className='w-[full] lg:w-[70%] mt-10'>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-[1rem]">
                         <input type="text" placeholder="Name" name="user_name" className='bg-[#EFEFEF] py-3 px-4 outline-none rounded-md md:rounded-none' required/>
@@ -51,5 +65,11 @@ function GetInTouch() {
         </div>
     )
 }
+
+const renderAlert = () => (
+    <div className='mt-3 px-4 py-3 leading-normal text-blue-700 bg-blue-100 rounded mb-5'>
+        <p>your message submitted successfully</p>
+    </div>
+)
 
 export default GetInTouch
