@@ -46,7 +46,7 @@ const Footer = () => {
               <span className="decoration-[#2F80ED] underline">real-time.</span>
             </p>
             <div className="flex items-center gap-4 mt-6 mb-4 lg:mt-0 lg:mb-0">
-              <a href='#'>
+              <a href='https://facebook.com/profile.php?id=100090290689161&mibextid=LQQJ4d' target='_blank'>
                 <img src={facebook} alt="" />
               </a>
               <a href=' https://instagram.com/wipingtech?igshid=YmMyMTA2M2Y=' target='_blank'>
