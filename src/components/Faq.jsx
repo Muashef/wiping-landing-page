@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 // import data
 import { faq } from '../data';
@@ -8,8 +8,8 @@ import Accordion from './Accordion';
 
 const Faq = () => {
   // destructure faq data
-  const { accordions } = faq;
-  const [activeIndex, setActiveIndex] = useState(0)
+  const { icon, title, accordions } = faq;
+  // const [activeIndex, setActiveIndex] = useState(0)
   return (
     <section className='faq h-fit  py-[20px] lg:py-[80px] lg:mb-0'>
       <div className='max-w-[768px] mx-auto lg:bg-faq bg-no-repeat bg-custom bg-center font-bold lg:h-[600px] lg:pt-6'>
@@ -32,7 +32,7 @@ const Faq = () => {
           data-aos-delay='200'
         >
           {accordions.map((accordion, idx) => {
-            return <Accordion accordion={accordion} index={idx} activeIndex={activeIndex} setActiveIndex={setActiveIndex} key={idx} />;
+            return <Accordion accordion={accordion}  key={idx} />;
           })}
         </div>
       </div>
