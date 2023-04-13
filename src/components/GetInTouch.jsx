@@ -13,10 +13,10 @@ function GetInTouch() {
       e.preventDefault();
   
       emailjs.sendForm(
-        'service_0nlwk4j', 
-        'template_waq87rv', 
+        'service_eiyareb', 
+        'template_ln6ou05',  
         form.current, 
-        '_5W48x--szIoDwRgD'
+        '8ovgF18_E_10udakv'  
         )
         .then((result) => {
             console.log(result.text);
